@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87A658C1BDCD50B00054C36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A658B1BDCD50B00054C36 /* main.m */; };
+		C87A658F1BDCD50B00054C36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A658E1BDCD50B00054C36 /* AppDelegate.m */; };
+		C87A65921BDCD50B00054C36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65911BDCD50B00054C36 /* ViewController.m */; };
+		C87A65951BDCD50B00054C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A65931BDCD50B00054C36 /* Main.storyboard */; };
+		C87A65971BDCD50B00054C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87A65961BDCD50B00054C36 /* Assets.xcassets */; };
+		C87A659A1BDCD50B00054C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A65981BDCD50B00054C36 /* LaunchScreen.storyboard */; };
+		C87A65A51BDCD50B00054C36 /* fuckGFWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65A41BDCD50B00054C36 /* fuckGFWTests.m */; };
+		C87A65B01BDCD50B00054C36 /* fuckGFWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65AF1BDCD50B00054C36 /* fuckGFWUITests.m */; };
+		C87A65BF1BDCDB4A00054C36 /* XQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65BE1BDCDB4A00054C36 /* XQTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C87A65C51BDCDD9500054C36 /* XQaccent.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65C41BDCDD9500054C36 /* XQaccent.m */; settings = {ASSET_TAGS = (); }; };
+		C87A65C91BDCE0F800054C36 /* XQaccentTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65C81BDCE0F800054C36 /* XQaccentTools.m */; settings = {ASSET_TAGS = (); }; };
+		C87A65D21BDCFCC200054C36 /* gmail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A65D11BDCFCC200054C36 /* gmail.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C87A65D51BDCFD5400054C36 /* XQfacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65D41BDCFD5400054C36 /* XQfacebookViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C87A65D81BDCFD6100054C36 /* XQtwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65D71BDCFD6100054C36 /* XQtwitterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C87A65DE1BDCFD9C00054C36 /* facebook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A65DD1BDCFD9C00054C36 /* facebook.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C87A65E01BDD074600054C36 /* twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A65DF1BDD074600054C36 /* twitter.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C87A65E41BDD08DC00054C36 /* XQgmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A65E31BDD08DC00054C36 /* XQgmailViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87A65A11BDCD50B00054C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87A657F1BDCD50B00054C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87A65861BDCD50B00054C36;
+			remoteInfo = fuckGFW;
+		};
+		C87A65AC1BDCD50B00054C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87A657F1BDCD50B00054C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87A65861BDCD50B00054C36;
+			remoteInfo = fuckGFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87A65871BDCD50B00054C36 /* fuckGFW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuckGFW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87A658B1BDCD50B00054C36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87A658D1BDCD50B00054C36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C87A658E1BDCD50B00054C36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C87A65901BDCD50B00054C36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C87A65911BDCD50B00054C36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C87A65941BDCD50B00054C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87A65961BDCD50B00054C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87A65991BDCD50B00054C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C87A659B1BDCD50B00054C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87A65A01BDCD50B00054C36 /* fuckGFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuckGFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87A65A41BDCD50B00054C36 /* fuckGFWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuckGFWTests.m; sourceTree = "<group>"; };
+		C87A65A61BDCD50B00054C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87A65AB1BDCD50B00054C36 /* fuckGFWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuckGFWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87A65AF1BDCD50B00054C36 /* fuckGFWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuckGFWUITests.m; sourceTree = "<group>"; };
+		C87A65B11BDCD50B00054C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87A65BD1BDCDB4A00054C36 /* XQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQTableViewController.h; sourceTree = "<group>"; };
+		C87A65BE1BDCDB4A00054C36 /* XQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQTableViewController.m; sourceTree = "<group>"; };
+		C87A65C31BDCDD9500054C36 /* XQaccent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQaccent.h; sourceTree = "<group>"; };
+		C87A65C41BDCDD9500054C36 /* XQaccent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQaccent.m; sourceTree = "<group>"; };
+		C87A65C71BDCE0F800054C36 /* XQaccentTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQaccentTools.h; sourceTree = "<group>"; };
+		C87A65C81BDCE0F800054C36 /* XQaccentTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQaccentTools.m; sourceTree = "<group>"; };
+		C87A65D11BDCFCC200054C36 /* gmail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = gmail.storyboard; sourceTree = "<group>"; };
+		C87A65D31BDCFD5400054C36 /* XQfacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQfacebookViewController.h; sourceTree = "<group>"; };
+		C87A65D41BDCFD5400054C36 /* XQfacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQfacebookViewController.m; sourceTree = "<group>"; };
+		C87A65D61BDCFD6100054C36 /* XQtwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQtwitterViewController.h; sourceTree = "<group>"; };
+		C87A65D71BDCFD6100054C36 /* XQtwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQtwitterViewController.m; sourceTree = "<group>"; };
+		C87A65DD1BDCFD9C00054C36 /* facebook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = facebook.storyboard; sourceTree = "<group>"; };
+		C87A65DF1BDD074600054C36 /* twitter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = twitter.storyboard; sourceTree = "<group>"; };
+		C87A65E21BDD08DC00054C36 /* XQgmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQgmailViewController.h; sourceTree = "<group>"; };
+		C87A65E31BDD08DC00054C36 /* XQgmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQgmailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87A65841BDCD50B00054C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A659D1BDCD50B00054C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A65A81BDCD50B00054C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87A657E1BDCD50B00054C36 = {
+			isa = PBXGroup;
+			children = (
+				C87A65891BDCD50B00054C36 /* fuckGFW */,
+				C87A65A31BDCD50B00054C36 /* fuckGFWTests */,
+				C87A65AE1BDCD50B00054C36 /* fuckGFWUITests */,
+				C87A65881BDCD50B00054C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87A65881BDCD50B00054C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65871BDCD50B00054C36 /* fuckGFW.app */,
+				C87A65A01BDCD50B00054C36 /* fuckGFWTests.xctest */,
+				C87A65AB1BDCD50B00054C36 /* fuckGFWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87A65891BDCD50B00054C36 /* fuckGFW */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65C61BDCDD9A00054C36 /* model */,
+				C87A658D1BDCD50B00054C36 /* AppDelegate.h */,
+				C87A658E1BDCD50B00054C36 /* AppDelegate.m */,
+				C87A65CA1BDCFC4100054C36 /* controller */,
+				C87A65961BDCD50B00054C36 /* Assets.xcassets */,
+				C87A65981BDCD50B00054C36 /* LaunchScreen.storyboard */,
+				C87A659B1BDCD50B00054C36 /* Info.plist */,
+				C87A658A1BDCD50B00054C36 /* Supporting Files */,
+			);
+			path = fuckGFW;
+			sourceTree = "<group>";
+		};
+		C87A658A1BDCD50B00054C36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87A658B1BDCD50B00054C36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87A65A31BDCD50B00054C36 /* fuckGFWTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65A41BDCD50B00054C36 /* fuckGFWTests.m */,
+				C87A65A61BDCD50B00054C36 /* Info.plist */,
+			);
+			path = fuckGFWTests;
+			sourceTree = "<group>";
+		};
+		C87A65AE1BDCD50B00054C36 /* fuckGFWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65AF1BDCD50B00054C36 /* fuckGFWUITests.m */,
+				C87A65B11BDCD50B00054C36 /* Info.plist */,
+			);
+			path = fuckGFWUITests;
+			sourceTree = "<group>";
+		};
+		C87A65C61BDCDD9A00054C36 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65C31BDCDD9500054C36 /* XQaccent.h */,
+				C87A65C41BDCDD9500054C36 /* XQaccent.m */,
+				C87A65C71BDCE0F800054C36 /* XQaccentTools.h */,
+				C87A65C81BDCE0F800054C36 /* XQaccentTools.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C87A65CA1BDCFC4100054C36 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65D01BDCFC8B00054C36 /* gmail */,
+				C87A65D91BDCFD6700054C36 /* facebook */,
+				C87A65DA1BDCFD7000054C36 /* twitter */,
+				C87A65CB1BDCFC4E00054C36 /* accent */,
+				C87A65CC1BDCFC5800054C36 /* select */,
+				C87A65931BDCD50B00054C36 /* Main.storyboard */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		C87A65CB1BDCFC4E00054C36 /* accent */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65901BDCD50B00054C36 /* ViewController.h */,
+				C87A65911BDCD50B00054C36 /* ViewController.m */,
+			);
+			name = accent;
+			sourceTree = "<group>";
+		};
+		C87A65CC1BDCFC5800054C36 /* select */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65BD1BDCDB4A00054C36 /* XQTableViewController.h */,
+				C87A65BE1BDCDB4A00054C36 /* XQTableViewController.m */,
+			);
+			name = select;
+			sourceTree = "<group>";
+		};
+		C87A65D01BDCFC8B00054C36 /* gmail */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65D11BDCFCC200054C36 /* gmail.storyboard */,
+				C87A65E21BDD08DC00054C36 /* XQgmailViewController.h */,
+				C87A65E31BDD08DC00054C36 /* XQgmailViewController.m */,
+			);
+			name = gmail;
+			sourceTree = "<group>";
+		};
+		C87A65D91BDCFD6700054C36 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65D31BDCFD5400054C36 /* XQfacebookViewController.h */,
+				C87A65D41BDCFD5400054C36 /* XQfacebookViewController.m */,
+				C87A65DD1BDCFD9C00054C36 /* facebook.storyboard */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+		C87A65DA1BDCFD7000054C36 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				C87A65D61BDCFD6100054C36 /* XQtwitterViewController.h */,
+				C87A65D71BDCFD6100054C36 /* XQtwitterViewController.m */,
+				C87A65DF1BDD074600054C36 /* twitter.storyboard */,
+			);
+			name = twitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87A65861BDCD50B00054C36 /* fuckGFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87A65B41BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFW" */;
+			buildPhases = (
+				C87A65831BDCD50B00054C36 /* Sources */,
+				C87A65841BDCD50B00054C36 /* Frameworks */,
+				C87A65851BDCD50B00054C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fuckGFW;
+			productName = fuckGFW;
+			productReference = C87A65871BDCD50B00054C36 /* fuckGFW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87A659F1BDCD50B00054C36 /* fuckGFWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87A65B71BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFWTests" */;
+			buildPhases = (
+				C87A659C1BDCD50B00054C36 /* Sources */,
+				C87A659D1BDCD50B00054C36 /* Frameworks */,
+				C87A659E1BDCD50B00054C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87A65A21BDCD50B00054C36 /* PBXTargetDependency */,
+			);
+			name = fuckGFWTests;
+			productName = fuckGFWTests;
+			productReference = C87A65A01BDCD50B00054C36 /* fuckGFWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87A65AA1BDCD50B00054C36 /* fuckGFWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87A65BA1BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFWUITests" */;
+			buildPhases = (
+				C87A65A71BDCD50B00054C36 /* Sources */,
+				C87A65A81BDCD50B00054C36 /* Frameworks */,
+				C87A65A91BDCD50B00054C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87A65AD1BDCD50B00054C36 /* PBXTargetDependency */,
+			);
+			name = fuckGFWUITests;
+			productName = fuckGFWUITests;
+			productReference = C87A65AB1BDCD50B00054C36 /* fuckGFWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87A657F1BDCD50B00054C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XQ;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = x;
+				TargetAttributes = {
+					C87A65861BDCD50B00054C36 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 569Q5C25QK;
+					};
+					C87A659F1BDCD50B00054C36 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 569Q5C25QK;
+						TestTargetID = C87A65861BDCD50B00054C36;
+					};
+					C87A65AA1BDCD50B00054C36 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 569Q5C25QK;
+						TestTargetID = C87A65861BDCD50B00054C36;
+					};
+				};
+			};
+			buildConfigurationList = C87A65821BDCD50B00054C36 /* Build configuration list for PBXProject "fuckGFW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87A657E1BDCD50B00054C36;
+			productRefGroup = C87A65881BDCD50B00054C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87A65861BDCD50B00054C36 /* fuckGFW */,
+				C87A659F1BDCD50B00054C36 /* fuckGFWTests */,
+				C87A65AA1BDCD50B00054C36 /* fuckGFWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87A65851BDCD50B00054C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A65E01BDD074600054C36 /* twitter.storyboard in Resources */,
+				C87A65DE1BDCFD9C00054C36 /* facebook.storyboard in Resources */,
+				C87A659A1BDCD50B00054C36 /* LaunchScreen.storyboard in Resources */,
+				C87A65D21BDCFCC200054C36 /* gmail.storyboard in Resources */,
+				C87A65971BDCD50B00054C36 /* Assets.xcassets in Resources */,
+				C87A65951BDCD50B00054C36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A659E1BDCD50B00054C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A65A91BDCD50B00054C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87A65831BDCD50B00054C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A65921BDCD50B00054C36 /* ViewController.m in Sources */,
+				C87A65D81BDCFD6100054C36 /* XQtwitterViewController.m in Sources */,
+				C87A65E41BDD08DC00054C36 /* XQgmailViewController.m in Sources */,
+				C87A658F1BDCD50B00054C36 /* AppDelegate.m in Sources */,
+				C87A65BF1BDCDB4A00054C36 /* XQTableViewController.m in Sources */,
+				C87A65C91BDCE0F800054C36 /* XQaccentTools.m in Sources */,
+				C87A65C51BDCDD9500054C36 /* XQaccent.m in Sources */,
+				C87A658C1BDCD50B00054C36 /* main.m in Sources */,
+				C87A65D51BDCFD5400054C36 /* XQfacebookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A659C1BDCD50B00054C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A65A51BDCD50B00054C36 /* fuckGFWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87A65A71BDCD50B00054C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A65B01BDCD50B00054C36 /* fuckGFWUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87A65A21BDCD50B00054C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87A65861BDCD50B00054C36 /* fuckGFW */;
+			targetProxy = C87A65A11BDCD50B00054C36 /* PBXContainerItemProxy */;
+		};
+		C87A65AD1BDCD50B00054C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87A65861BDCD50B00054C36 /* fuckGFW */;
+			targetProxy = C87A65AC1BDCD50B00054C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87A65931BDCD50B00054C36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87A65941BDCD50B00054C36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87A65981BDCD50B00054C36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87A65991BDCD50B00054C36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87A65B21BDCD50B00054C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C87A65B31BDCD50B00054C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87A65B51BDCD50B00054C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fuckGFW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C87A65B61BDCD50B00054C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fuckGFW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C87A65B81BDCD50B00054C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fuckGFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fuckGFW.app/fuckGFW";
+			};
+			name = Debug;
+		};
+		C87A65B91BDCD50B00054C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fuckGFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fuckGFW.app/fuckGFW";
+			};
+			name = Release;
+		};
+		C87A65BB1BDCD50B00054C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fuckGFWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fuckGFW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C87A65BC1BDCD50B00054C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fuckGFWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.x.fuckGFWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fuckGFW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87A65821BDCD50B00054C36 /* Build configuration list for PBXProject "fuckGFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A65B21BDCD50B00054C36 /* Debug */,
+				C87A65B31BDCD50B00054C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87A65B41BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A65B51BDCD50B00054C36 /* Debug */,
+				C87A65B61BDCD50B00054C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87A65B71BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A65B81BDCD50B00054C36 /* Debug */,
+				C87A65B91BDCD50B00054C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87A65BA1BDCD50B00054C36 /* Build configuration list for PBXNativeTarget "fuckGFWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A65BB1BDCD50B00054C36 /* Debug */,
+				C87A65BC1BDCD50B00054C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87A657F1BDCD50B00054C36 /* Project object */;
+}

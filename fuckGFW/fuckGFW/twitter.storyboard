@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uD7-ZF-uoW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--twitter-->
+        <scene sceneID="zaq-Nb-ZHo">
+            <objects>
+                <viewController id="o8L-kD-G6D" customClass="XQtwitterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ksK-sj-A5j"/>
+                        <viewControllerLayoutGuide type="bottom" id="3iC-ac-XVW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uFc-Pc-zSx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="twitter" id="sUC-wO-ydh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8h-1v-lZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="369"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cDC-j8-Ku4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uD7-ZF-uoW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l5x-WK-u7F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o8L-kD-G6D" kind="relationship" relationship="rootViewController" id="grR-FW-DZm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B9n-c7-Yjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="369"/>
+        </scene>
+    </scenes>
+</document>

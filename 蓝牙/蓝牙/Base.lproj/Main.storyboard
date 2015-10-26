@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9I-Z5-orc">
+                                <rect key="frame" x="270" y="320" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tT9-bO-68M"/>
+                                    <constraint firstAttribute="width" constant="60" id="yn3-NK-erF"/>
+                                </constraints>
+                                <state key="normal" title="选择图片"/>
+                                <connections>
+                                    <action selector="select:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GWt-nM-8rl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8n-6F-zBG">
+                                <rect key="frame" x="380" y="320" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="ZJv-d8-QxB"/>
+                                    <constraint firstAttribute="height" constant="30" id="lLe-Jt-rD0"/>
+                                </constraints>
+                                <state key="normal" title="发送"/>
+                                <connections>
+                                    <action selector="sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5g-8P-3lS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcb-uL-gsk">
+                                <rect key="frame" x="160" y="320" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="15j-jp-PdV"/>
+                                    <constraint firstAttribute="height" constant="30" id="vM0-lC-ylt"/>
+                                </constraints>
+                                <state key="normal" title="连接"/>
+                                <connections>
+                                    <action selector="online:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPd-15-dLM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wh6-nH-MEx">
+                                <rect key="frame" x="225" y="120" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="kIs-Y5-PaU"/>
+                                    <constraint firstAttribute="width" constant="150" id="uhZ-Pw-iUd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lcb-uL-gsk" firstAttribute="top" secondItem="Wh6-nH-MEx" secondAttribute="bottom" constant="50" id="4V4-va-FT3"/>
+                            <constraint firstItem="G8n-6F-zBG" firstAttribute="leading" secondItem="Q9I-Z5-orc" secondAttribute="trailing" constant="50" id="7Dt-UN-5i8"/>
+                            <constraint firstItem="Q9I-Z5-orc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T0R-7d-vg7"/>
+                            <constraint firstItem="Q9I-Z5-orc" firstAttribute="leading" secondItem="Lcb-uL-gsk" secondAttribute="trailing" constant="50" id="YW5-0j-MfC"/>
+                            <constraint firstItem="G8n-6F-zBG" firstAttribute="top" secondItem="Wh6-nH-MEx" secondAttribute="bottom" constant="50" id="bTz-dt-GNT"/>
+                            <constraint firstItem="Wh6-nH-MEx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="cIg-Xw-8qM"/>
+                            <constraint firstItem="Q9I-Z5-orc" firstAttribute="leading" secondItem="Lcb-uL-gsk" secondAttribute="trailing" constant="50" id="hac-BS-S9z"/>
+                            <constraint firstItem="Wh6-nH-MEx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="121" id="iPJ-qM-uRE"/>
+                            <constraint firstItem="Wh6-nH-MEx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mYR-cy-CWu"/>
+                            <constraint firstItem="Q9I-Z5-orc" firstAttribute="top" secondItem="Wh6-nH-MEx" secondAttribute="bottom" constant="50" id="ms4-EK-W2u"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iPJ-qM-uRE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="CurrImage" destination="Wh6-nH-MEx" id="Nn5-ge-iBZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="599"/>
+        </scene>
+    </scenes>
+</document>
